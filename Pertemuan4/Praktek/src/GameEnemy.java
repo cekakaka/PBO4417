@@ -34,9 +34,9 @@ public class GameEnemy {
         this.width = newWidth;
         this.height = newHeight;       
     }
-    public void setPosition(int newPosX, int newPosY){
-        this.positionX = newPosX;
-        this.positionY = newPosY;
+    public void setPosition(int positionX, int positionY){
+        this.positionX = positionX;
+        this.positionY = positionY;
     }
     
     // get 
@@ -46,10 +46,10 @@ public class GameEnemy {
     public double getHeight(){
         return height;
     }
-    public double getX(){
+    public int getX(){
         return positionX;
     }
-    public double getY(){
+    public int getY(){
         return positionY;
     }
     public void RUN(){

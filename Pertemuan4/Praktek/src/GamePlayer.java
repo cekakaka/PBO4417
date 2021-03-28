@@ -46,10 +46,10 @@ public class GamePlayer {
     public double getHeight(){
         return height;
     }
-    public double getX(){
+    public int getX(){
         return positionX;
     }
-    public double getY(){
+    public int getY(){
         return positionY;
     }
     public void RUN(){

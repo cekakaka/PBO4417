@@ -71,7 +71,7 @@ public class GameEnvironment {
         }
     }
 
-    public static int EuclideanDistance(double x1, double y1, double x2, double y2) {
+    public static int EuclideanDistance(int x1, int y1, int x2, int y2) {
         int result = (int) Math.sqrt((y1 - x2) * 2 + (y2 - x2) * 2);
         return result;
     }
